@@ -41,9 +41,10 @@ private extension TabBarConfigurator {
 
         allTab.forEach { tab in
             let controller = getCurrentViewController(tab: tab)
+            let navigationController = UINavigationController(rootViewController: controller)
             let tabBarItem = UITabBarItem(title: tab.title, image: tab.image, selectedImage: tab.selectedImage)
             controller.tabBarItem = tabBarItem
-            viewControllers.append(controller)
+            viewControllers.append(navigationController)
         }
 
         return viewControllers
