@@ -14,6 +14,9 @@
 		340DA84628A110C300EB2443 /* AuthRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DA84528A110C300EB2443 /* AuthRequestModel.swift */; };
 		340DA84828A1112A00EB2443 /* AuthResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DA84728A1112A00EB2443 /* AuthResponseModel.swift */; };
 		340DA84D28A1148D00EB2443 /* EmptyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DA84C28A1148D00EB2443 /* EmptyModel.swift */; };
+		340DA85228A115B400EB2443 /* TokenStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DA85128A115B400EB2443 /* TokenStorage.swift */; };
+		340DA85428A115CF00EB2443 /* TokenContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DA85328A115CF00EB2443 /* TokenContainer.swift */; };
+		340DA85628A115FD00EB2443 /* BaseTokenStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DA85528A115FD00EB2443 /* BaseTokenStorage.swift */; };
 		50F902A92899131C0083B46E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F902A82899131C0083B46E /* AppDelegate.swift */; };
 		50F902B22899131E0083B46E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F902B12899131E0083B46E /* Assets.xcassets */; };
 		50F902B52899131E0083B46E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F902B32899131E0083B46E /* LaunchScreen.storyboard */; };
@@ -47,6 +50,9 @@
 		340DA84528A110C300EB2443 /* AuthRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRequestModel.swift; sourceTree = "<group>"; };
 		340DA84728A1112A00EB2443 /* AuthResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponseModel.swift; sourceTree = "<group>"; };
 		340DA84C28A1148D00EB2443 /* EmptyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyModel.swift; sourceTree = "<group>"; };
+		340DA85128A115B400EB2443 /* TokenStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenStorage.swift; sourceTree = "<group>"; };
+		340DA85328A115CF00EB2443 /* TokenContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenContainer.swift; sourceTree = "<group>"; };
+		340DA85528A115FD00EB2443 /* BaseTokenStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTokenStorage.swift; sourceTree = "<group>"; };
 		50F902A52899131C0083B46E /* SurfEducationProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurfEducationProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F902A82899131C0083B46E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50F902B12899131E0083B46E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
