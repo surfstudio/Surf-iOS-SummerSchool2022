@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		340DA83B28A102F300EB2443 /* NetworkTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DA83A28A102F300EB2443 /* NetworkTask.swift */; };
+		340DA83F28A1060C00EB2443 /* BaseNetworkTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DA83E28A1060C00EB2443 /* BaseNetworkTask.swift */; };
+		340DA84128A1072D00EB2443 /* NetworkMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DA84028A1072D00EB2443 /* NetworkMethod.swift */; };
+		340DA84428A1108400EB2443 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DA84328A1108400EB2443 /* AuthService.swift */; };
+		340DA84628A110C300EB2443 /* AuthRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DA84528A110C300EB2443 /* AuthRequestModel.swift */; };
+		340DA84828A1112A00EB2443 /* AuthResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DA84728A1112A00EB2443 /* AuthResponseModel.swift */; };
+		340DA84B28A1147400EB2443 /* PictureResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DA84A28A1147400EB2443 /* PictureResponseModel.swift */; };
+		340DA84D28A1148D00EB2443 /* EmptyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DA84C28A1148D00EB2443 /* EmptyModel.swift */; };
+		340DA84F28A1154F00EB2443 /* PicturesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DA84E28A1154F00EB2443 /* PicturesService.swift */; };
+		340DA85228A115B400EB2443 /* TokenStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DA85128A115B400EB2443 /* TokenStorage.swift */; };
+		340DA85428A115CF00EB2443 /* TokenContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DA85328A115CF00EB2443 /* TokenContainer.swift */; };
+		340DA85628A115FD00EB2443 /* BaseTokenStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DA85528A115FD00EB2443 /* BaseTokenStorage.swift */; };
+		340DA85928A123C400EB2443 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DA85828A123C400EB2443 /* ImageLoader.swift */; };
+		340DA85B28A123D600EB2443 /* UIImageView+ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340DA85A28A123D600EB2443 /* UIImageView+ImageLoader.swift */; };
 		50F902A92899131C0083B46E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F902A82899131C0083B46E /* AppDelegate.swift */; };
 		50F902B22899131E0083B46E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F902B12899131E0083B46E /* Assets.xcassets */; };
 		50F902B52899131E0083B46E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F902B32899131E0083B46E /* LaunchScreen.storyboard */; };
@@ -33,6 +47,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		340DA83A28A102F300EB2443 /* NetworkTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTask.swift; sourceTree = "<group>"; };
+		340DA83E28A1060C00EB2443 /* BaseNetworkTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNetworkTask.swift; sourceTree = "<group>"; };
+		340DA84028A1072D00EB2443 /* NetworkMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMethod.swift; sourceTree = "<group>"; };
+		340DA84328A1108400EB2443 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		340DA84528A110C300EB2443 /* AuthRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRequestModel.swift; sourceTree = "<group>"; };
+		340DA84728A1112A00EB2443 /* AuthResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponseModel.swift; sourceTree = "<group>"; };
+		340DA84A28A1147400EB2443 /* PictureResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureResponseModel.swift; sourceTree = "<group>"; };
+		340DA84C28A1148D00EB2443 /* EmptyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyModel.swift; sourceTree = "<group>"; };
+		340DA84E28A1154F00EB2443 /* PicturesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesService.swift; sourceTree = "<group>"; };
+		340DA85128A115B400EB2443 /* TokenStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenStorage.swift; sourceTree = "<group>"; };
+		340DA85328A115CF00EB2443 /* TokenContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenContainer.swift; sourceTree = "<group>"; };
+		340DA85528A115FD00EB2443 /* BaseTokenStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTokenStorage.swift; sourceTree = "<group>"; };
+		340DA85828A123C400EB2443 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		340DA85A28A123D600EB2443 /* UIImageView+ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+ImageLoader.swift"; sourceTree = "<group>"; };
 		50F902A52899131C0083B46E /* SurfEducationProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurfEducationProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F902A82899131C0083B46E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50F902B12899131E0083B46E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,6 +99,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		340DA83728A102D900EB2443 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				340DA85028A115AA00EB2443 /* Storage */,
+				340DA83828A102E100EB2443 /* Networking */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		340DA83828A102E100EB2443 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				340DA85728A123B700EB2443 /* ImageLoader */,
+				340DA84928A1145E00EB2443 /* PicturesService */,
+				340DA84228A1107300EB2443 /* AuthService */,
+				340DA83928A102E700EB2443 /* Core */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		340DA83928A102E700EB2443 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				340DA83A28A102F300EB2443 /* NetworkTask.swift */,
+				340DA84028A1072D00EB2443 /* NetworkMethod.swift */,
+				340DA83E28A1060C00EB2443 /* BaseNetworkTask.swift */,
+				340DA84C28A1148D00EB2443 /* EmptyModel.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		340DA84228A1107300EB2443 /* AuthService */ = {
+			isa = PBXGroup;
+			children = (
+				340DA84328A1108400EB2443 /* AuthService.swift */,
+				340DA84728A1112A00EB2443 /* AuthResponseModel.swift */,
+				340DA84528A110C300EB2443 /* AuthRequestModel.swift */,
+			);
+			path = AuthService;
+			sourceTree = "<group>";
+		};
+		340DA84928A1145E00EB2443 /* PicturesService */ = {
+			isa = PBXGroup;
+			children = (
+				340DA84A28A1147400EB2443 /* PictureResponseModel.swift */,
+				340DA84E28A1154F00EB2443 /* PicturesService.swift */,
+			);
+			path = PicturesService;
+			sourceTree = "<group>";
+		};
+		340DA85028A115AA00EB2443 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				340DA85128A115B400EB2443 /* TokenStorage.swift */,
+				340DA85328A115CF00EB2443 /* TokenContainer.swift */,
+				340DA85528A115FD00EB2443 /* BaseTokenStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		340DA85728A123B700EB2443 /* ImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				340DA85828A123C400EB2443 /* ImageLoader.swift */,
+				340DA85A28A123D600EB2443 /* UIImageView+ImageLoader.swift */,
+			);
+			path = ImageLoader;
+			sourceTree = "<group>";
+		};
 		50F9029C2899131C0083B46E = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +187,7 @@
 		50F902A72899131C0083B46E /* SurfEducationProject */ = {
 			isa = PBXGroup;
 			children = (
+				340DA83728A102D900EB2443 /* Services */,
 				50F902A82899131C0083B46E /* AppDelegate.swift */,
 				50F902EF289A724B0083B46E /* Application */,
 				50F902E7289A719A0083B46E /* MainFlow */,
@@ -297,12 +395,26 @@
 				50F902E5289A6A620083B46E /* ProfileViewController.swift in Sources */,
 				761E9807289D1F1C005958C2 /* DetailTextTableViewCell.swift in Sources */,
 				76C18B7F289D1CDA00F301A1 /* DetailTitleTableViewCell.swift in Sources */,
+				340DA84D28A1148D00EB2443 /* EmptyModel.swift in Sources */,
 				50F902A92899131C0083B46E /* AppDelegate.swift in Sources */,
 				761E980A289D2088005958C2 /* DetailItemModel.swift in Sources */,
+				340DA83F28A1060C00EB2443 /* BaseNetworkTask.swift in Sources */,
+				340DA84828A1112A00EB2443 /* AuthResponseModel.swift in Sources */,
+				340DA85628A115FD00EB2443 /* BaseTokenStorage.swift in Sources */,
 				7637F1AB289BC16300F16F98 /* MainModel.swift in Sources */,
+				340DA85928A123C400EB2443 /* ImageLoader.swift in Sources */,
+				340DA85428A115CF00EB2443 /* TokenContainer.swift in Sources */,
+				340DA85B28A123D600EB2443 /* UIImageView+ImageLoader.swift in Sources */,
+				340DA85228A115B400EB2443 /* TokenStorage.swift in Sources */,
+				340DA84B28A1147400EB2443 /* PictureResponseModel.swift in Sources */,
+				340DA84F28A1154F00EB2443 /* PicturesService.swift in Sources */,
 				7637F1AF289BC56E00F16F98 /* MainItemCollectionViewCell.swift in Sources */,
+				340DA83B28A102F300EB2443 /* NetworkTask.swift in Sources */,
 				50F902ED289A720F0083B46E /* FavoriteViewController.swift in Sources */,
+				340DA84128A1072D00EB2443 /* NetworkMethod.swift in Sources */,
 				50F902F4289A74460083B46E /* TabBarConfigurator.swift in Sources */,
+				340DA84428A1108400EB2443 /* AuthService.swift in Sources */,
+				340DA84628A110C300EB2443 /* AuthRequestModel.swift in Sources */,
 				76C18B7A289D1BBF00F301A1 /* DetailImageTableViewCell.swift in Sources */,
 				50F902F2289A72B90083B46E /* TabBarModel.swift in Sources */,
 			);

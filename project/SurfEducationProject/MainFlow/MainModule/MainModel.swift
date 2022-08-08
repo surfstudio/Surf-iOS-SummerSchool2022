@@ -16,6 +16,7 @@ final class MainModel {
 
     // MARK: - Properties
 
+    let pictureService = PicturesService()
     var items: [DetailItemModel] = [] {
         didSet {
             didItemsUpdated?()
@@ -24,7 +25,24 @@ final class MainModel {
 
     // MARK: - Methods
 
-    func getPosts() {
+    func loadPosts() {
+        pictureService.loadPictures { [weak self] result in
+            switch result {
+            case .success(let pictures):
+                self?.items = pictures.map { pictureModel in
+                    DetailItemModel(
+                        imageUrlInString: pictureModel.photoUrl,
+                        title: pictureModel.title,
+                        isFavorite: false, // TODO: - Need adding `FavoriteService`
+                        content: pictureModel.content,
+                        dateCreation: pictureModel.date
+                    )
+                }
+            case .failure(let error):
+                // TODO: - Implement error state there
+                break
+            }
+        }
         items = Array(repeating: DetailItemModel.createDefault(), count: 100)
     }
 
