@@ -71,6 +71,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		340DA83728A102D900EB2443 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				340DA85028A115AA00EB2443 /* Storage */,
+				340DA83828A102E100EB2443 /* Networking */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		340DA85028A115AA00EB2443 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				340DA85128A115B400EB2443 /* TokenStorage.swift */,
+				340DA85328A115CF00EB2443 /* TokenContainer.swift */,
+				340DA85528A115FD00EB2443 /* BaseTokenStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
 		50F9029C2899131C0083B46E = {
 			isa = PBXGroup;
 			children = (
@@ -299,7 +318,10 @@
 				76C18B7F289D1CDA00F301A1 /* DetailTitleTableViewCell.swift in Sources */,
 				50F902A92899131C0083B46E /* AppDelegate.swift in Sources */,
 				761E980A289D2088005958C2 /* DetailItemModel.swift in Sources */,
+				340DA85628A115FD00EB2443 /* BaseTokenStorage.swift in Sources */,
 				7637F1AB289BC16300F16F98 /* MainModel.swift in Sources */,
+				340DA85428A115CF00EB2443 /* TokenContainer.swift in Sources */,
+				340DA85228A115B400EB2443 /* TokenStorage.swift in Sources */,
 				7637F1AF289BC56E00F16F98 /* MainItemCollectionViewCell.swift in Sources */,
 				50F902ED289A720F0083B46E /* FavoriteViewController.swift in Sources */,
 				50F902F4289A74460083B46E /* TabBarConfigurator.swift in Sources */,
