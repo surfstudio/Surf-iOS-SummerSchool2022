@@ -43,7 +43,6 @@ final class MainModel {
                 break
             }
         }
-        items = Array(repeating: DetailItemModel.createDefault(), count: 100)
     }
 
 }

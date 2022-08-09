@@ -168,6 +168,32 @@
 			path = ImageLoader;
 			sourceTree = "<group>";
 		};
+		347757E728A24B8F007574AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				50F902DF289A68980083B46E /* MainViewController.swift */,
+				50F902E0289A68980083B46E /* MainViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		347757E828A24B9E007574AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				347757E928A24BC7007574AC /* DTO */,
+				7637F1AA289BC16300F16F98 /* MainModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		347757E928A24BC7007574AC /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				761E9809289D2088005958C2 /* DetailItemModel.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
 		50F9029C2899131C0083B46E = {
 			isa = PBXGroup;
 			children = (
@@ -210,11 +236,9 @@
 		50F902E8289A71A60083B46E /* MainModule */ = {
 			isa = PBXGroup;
 			children = (
+				347757E828A24B9E007574AC /* Model */,
+				347757E728A24B8F007574AC /* View */,
 				7637F1AC289BC55600F16F98 /* Cells */,
-				50F902DF289A68980083B46E /* MainViewController.swift */,
-				50F902E0289A68980083B46E /* MainViewController.xib */,
-				7637F1AA289BC16300F16F98 /* MainModel.swift */,
-				761E9809289D2088005958C2 /* DetailItemModel.swift */,
 			);
 			path = MainModule;
 			sourceTree = "<group>";
