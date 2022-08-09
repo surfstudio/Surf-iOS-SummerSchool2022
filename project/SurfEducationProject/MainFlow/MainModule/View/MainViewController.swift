@@ -32,7 +32,6 @@ final class MainViewController: UIViewController {
         configureApperance()
         configureModel()
         model.loadPosts()
-        model.items[5].isFavorite = true
     }
 
 }
@@ -52,7 +51,7 @@ private extension MainViewController {
 
     func configureModel() {
         model.didItemsUpdated = { [weak self] in
-            DispatchQueue.main.async {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
                 self?.collectionView.reloadData()
             }
         }
