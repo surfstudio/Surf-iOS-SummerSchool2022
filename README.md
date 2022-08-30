@@ -6,6 +6,8 @@
 [Демо-проект](project)
 
 
+🏆 [Результаты школы](results)
+
 ## Информация по проекту
 
 [Дизайн](https://www.figma.com/file/DskQkoBqXewHFzyqlKkao3/Surf-education-iOS?node-id=9%3A8467)
